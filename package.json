@@ -1,0 +1,14 @@
+{
+  "name": "SASS-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kashidai/scss-practice.git",
+  "author": "Dai <d.k.95.82.8192@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

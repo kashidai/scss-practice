@@ -2,10 +2,12 @@ div {
   height: 30px;
   width: 50px;
 }
+
 div p {
   color: crimson;
   font-size: 40px;
 }
+
 div h1 {
   color: aqua;
   font-weight: bold;
@@ -17,9 +19,8 @@ div h1 {
   height: 20px;
   background-color: deeppink;
 }
+
 .block:hover,
 .aaa:hover {
-  background-color: lawngreen;
+  background-color: yellow;
 }
-
-/*# sourceMappingURL=style.css.map */
