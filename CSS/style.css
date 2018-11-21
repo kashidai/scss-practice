@@ -1,0 +1,25 @@
+div {
+  height: 30px;
+  width: 50px;
+}
+div p {
+  color: crimson;
+  font-size: 40px;
+}
+div h1 {
+  color: aqua;
+  font-weight: bold;
+}
+
+.block,
+.aaa {
+  width: 20px;
+  height: 20px;
+  background-color: deeppink;
+}
+.block:hover,
+.aaa:hover {
+  background-color: lawngreen;
+}
+
+/*# sourceMappingURL=style.css.map */

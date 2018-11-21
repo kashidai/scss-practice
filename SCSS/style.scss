@@ -1,0 +1,36 @@
+
+$header : crimson;
+$tinyFont : 40px;
+
+div{
+
+  height: 30px;
+  width: 50px;
+
+  p {
+    color: $header;
+    font-size: $tinyFont;
+  }
+
+  h1{
+  color: aqua;
+    font-weight: bold;
+     }
+
+
+}
+
+@mixin block{
+  width: 20px;
+  height: 20px;
+  background-color: deeppink;
+  &:hover{
+    background-color: lawngreen;
+  }
+}
+
+
+.block,
+.aaa {
+  @include block;
+}
